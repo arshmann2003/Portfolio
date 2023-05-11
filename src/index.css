@@ -1,0 +1,23 @@
+
+html{
+  font-size: xx-large;
+  cursor:default;
+}
+
+
+body {
+    margin: 0;
+    font: 300 11px/1.4 'Helvetica Neue';
+    color:#444;
+    /* background: black; */
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: xx-large;
+    overflow: hidden;
+    
+}
+
+
+
+

@@ -1,0 +1,80 @@
+
+#Description, #skills, #learned{
+    color: red;
+}
+
+.projectLinks{
+    // display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#demo{
+    top: -25px;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    background-color: red;
+}
+#demo:hover{
+    cursor: pointer;
+    color: red;
+    background-color: white;    
+}
+
+
+.project {
+    position: absolute;
+    opacity: 0;
+    animation: fadeIn 3.5s 0.5s;
+    animation-fill-mode: forwards;
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.project h1 {
+    margin-top: 50px;
+    color: white;
+    font-size: 35px;
+}
+.project img {
+    top: -200px;
+    width: 700px;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+.project p {
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+    width: 80%;
+    // margin-left: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
+
+.project svg {
+    font-size: 60px;
+    color: #3e497a;
+}
+
+
+
+#gitHub{
+    // padding: 10px;
+    background-color: white;
+    border-radius: 1000px;
+}
+
+#gitHub:hover{
+    background-color: black;
+    cursor: pointer;
+}
