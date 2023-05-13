@@ -5,7 +5,7 @@
     position: absolute;
     opacity: 0;
     animation-name: fadeIn;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
     top: 10%;
     padding-left: 5%;
@@ -16,8 +16,8 @@
     align-items: center;
     flex-direction:row-reverse;
     flex-wrap:wrap;
-
   }
+
   .projects .projectTitle {
     text-align: center;
     font-weight: bolder;
@@ -45,7 +45,7 @@
     box-shadow: 0px 3px 100px skyblue;
     transition: 0s ease-in;
     cursor: pointer;
-    color: red;
+    color: white;
   }
   
   .projectItem .bgImage {
