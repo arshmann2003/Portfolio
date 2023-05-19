@@ -9,8 +9,8 @@ function ProjectDisplay() {
     const { id } = useParams();
     const project = ProjectList[id];
     let showTag = false;  
+    if(id==1){showTag = true}
     if(id==2){showTag = true}
-    if(id==3){showTag = true}
     
     return (
         <div className='project'>
