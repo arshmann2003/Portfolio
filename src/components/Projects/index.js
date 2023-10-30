@@ -20,21 +20,26 @@ function Projects(){
     
     return ( <div className="projects">
         {
-            loading?
-            <div className='testing'>
+            // loading?
+            // <div className='testing'>
               
-                <CircleLoader
-                    color={'#D0021B'}
-                    loading={loading}
-                    size={800}
-                />
+            //     {/* <CircleLoader
+            //         color={'#D0021B'}
+            //         loading={loading}
+            //         size={800}
+            //     /> */}
                 
-            </div>
-            :
-            <div className='projectList'>
-                {ProjectList.map((project, index) =>{
-                    return <ProjectItem id={index} name={project.name} image={project.image} showTag={index === 0} />
-                })}   
+            // </div>
+            // :
+            // <div className='projectList'>
+            //     {ProjectList.map((project, index) =>{
+            //         return <ProjectItem id={index} name={project.name} image={project.image} showTag={index === 0} />
+            //     })}   
+            // </div>
+            <div>
+                <div className='under_dev_container'>
+                <p className='under_dev'>UNDER DEVELOPMENT</p>
+                </div>
             </div>
                 
         }       
